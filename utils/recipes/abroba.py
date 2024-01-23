@@ -1,7 +1,7 @@
 # from inspect import signature
 from random import randint
 
-from faker.proxy import Faker
+from faker import Faker
 
 
 def rand_ratio():
@@ -38,4 +38,3 @@ def make_recipe():
 if __name__ == '__main__':
     from pprint import pprint
     pprint(make_recipe())
-    
