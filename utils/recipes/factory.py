@@ -20,7 +20,7 @@ def make_recipe():
         'preparation_time': fake.random_number(digits=2, fix_len=True),
         'preparation_time_unit': 'Minutos',
         'servings': fake.random_number(digits=2, fix_len=True),
-        'servings_unit': 'Porcao',
+        'servings_unit': 'Porção',
         'preparation_steps': fake.text(3000),
         'created_at': fake.date_time(),
         'author': {
@@ -39,4 +39,3 @@ def make_recipe():
 if __name__ == '__main__':
     from pprint import pprint
     pprint(make_recipe())
-    
